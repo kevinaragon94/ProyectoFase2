@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1584186014 source:c:\users\kevin\desktop\ingenieria en sistemas v semestre\programacion iii\proyecto de programacion\fase l\main.cpp
+	<iostream>
+	<fstream>
+	<windows.h>
+	<string.h>
+	<cstdlib>
+	<conio.h>
+	<stdlib.h>
+	<Mmsystem.h>
+

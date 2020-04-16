@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1586977515 source:c:\users\kevin\desktop\ingenieria en sistemas v semestre\programacion iii\proyecto de charlie\prueba_avl\main.cpp
+	"stdio.h"
+	"stdlib.h"
+	"conio.h"
+	"string.h"
+	<iostream>
+
