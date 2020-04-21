@@ -16,6 +16,8 @@ using namespace std;
 
 char espanol[15], ingles[15], frances[15], italiano[15],auxpalabra[15];
 
+const wchar_t* URL = L"C:\\Users\\NoxPride\\Desktop\\Proyecto\\ProyectoFase2\\Fase l\\ ";
+
 bool encontrado=false;
 
 void menu();
@@ -110,19 +112,19 @@ void castellano(){
                       cout<<"______________________________"<<endl;
                       cout<<"Ingles: "<<ingles<<endl;
                       cout<<"______________________________"<<endl;
-                      PlaySound (("C:\\Users\\Kevin\\Desktop\\Ingenieria en Sistemas V Semestre\\Programacion III\\Programas realizdos\\Fase l\\ ",ingles),NULL,SND_FILENAME | SND_ASYNC);
+                      PlaySound ((URL,ingles),NULL,SND_FILENAME | SND_ASYNC);
                       break; //Hacemos el llamado al audio seleecionado
                   case 2:
                       cout<<"______________________________"<<endl;
                       cout<<"Frances: "<<frances<<endl;
                       cout<<"______________________________"<<endl;
-                      PlaySound (("C:\\Users\\Kevin\\Desktop\\Ingenieria en Sistemas V Semestre\\Programacion III\\Programas realizdos\\Fase l\\",frances),NULL,SND_FILENAME | SND_ASYNC);
+                      PlaySound ((URL,frances),NULL,SND_FILENAME | SND_ASYNC);
                       break;//Hacemos el llamado al audio seleecionado
                   case 3:
                       cout<<"______________________________"<<endl;
                       cout<<"Italiano: "<<italiano<<endl;
                       cout<<"______________________________"<<endl;
-                      PlaySound (("C:\\Users\\Kevin\\Desktop\\Ingenieria en Sistemas V Semestre\\Programacion III\\Programas realizdos\\Fase l\\",italiano),NULL,SND_FILENAME | SND_ASYNC);
+                      PlaySound ((URL,italiano),NULL,SND_FILENAME | SND_ASYNC);
                       break;//Hacemos el llamado al audio seleecionado,
                       default:
                       cout<<"Opcion Incorrecta"<<endl;  //si usuario digite la opcion incorrecta volvera a pedir datos
@@ -172,19 +174,19 @@ void ingles_f(){
                       cout<<"______________________________"<<endl;
                       cout<<"Espanol: "<<espanol<<endl;
                       cout<<"______________________________"<<endl;
-                       PlaySound (("C:\\Users\\Kevin\\Desktop\\Ingenieria en Sistemas V Semestre\\Programacion III\\Programas realizdos\\Fase l\\ ",espanol),NULL,SND_FILENAME | SND_ASYNC);
+                       PlaySound ((URL,espanol),NULL,SND_FILENAME | SND_ASYNC);
                       break;//Hacemos el llamado al audio seleecionado
                   case 2:
                       cout<<"______________________________"<<endl;
                       cout<<"Frances: "<<frances<<endl;
                       cout<<"______________________________"<<endl;
-                       PlaySound (("C:\\Users\\Kevin\\Desktop\\Ingenieria en Sistemas V Semestre\\Programacion III\\Programas realizdos\\Fase l\\ ",frances),NULL,SND_FILENAME | SND_ASYNC);
+                       PlaySound ((URL,frances),NULL,SND_FILENAME | SND_ASYNC);
                       break;//Hacemos el llamado al audio seleecionado
                   case 3:
                       cout<<"______________________________"<<endl;
                       cout<<"Italiano: "<<italiano<<endl;
                       cout<<"______________________________"<<endl;
-                       PlaySound (("C:\\Users\\Kevin\\Desktop\\Ingenieria en Sistemas V Semestre\\Programacion III\\Programas realizdos\\Fase l\\ ",italiano),NULL,SND_FILENAME | SND_ASYNC);
+                       PlaySound ((URL,italiano),NULL,SND_FILENAME | SND_ASYNC);
                       break;//Hacemos el llamado al audio seleecionado
                       default:
                       cout<<"Opcion Incorrecta"<<endl; //si usuario digite la opcion incorrecta volvera a pedir datos
@@ -236,19 +238,19 @@ void frances_f(){
                       cout<<"______________________________"<<endl;
                       cout<<"Espanol: "<<espanol<<endl;
                       cout<<"______________________________"<<endl;
-                       PlaySound (("C:\\Users\\Kevin\\Desktop\\Ingenieria en Sistemas V Semestre\\Programacion III\\Programas realizdos\\Fase l\\ ",espanol),NULL,SND_FILENAME | SND_ASYNC);
+                       PlaySound ((URL,espanol),NULL,SND_FILENAME | SND_ASYNC);
                       break;//Hacemos el llamado al audio seleecionado
                   case 2:
                       cout<<"______________________________"<<endl;
                       cout<<"Ingles: "<<ingles<<endl;
                       cout<<"______________________________"<<endl;
-                       PlaySound (("C:\\Users\\Kevin\\Desktop\\Ingenieria en Sistemas V Semestre\\Programacion III\\Programas realizdos\\Fase l\\ ",ingles),NULL,SND_FILENAME | SND_ASYNC);
+                       PlaySound ((URL,ingles),NULL,SND_FILENAME | SND_ASYNC);
                       break;//Hacemos el llamado al audio seleecionado
                   case 3:
                       cout<<"______________________________"<<endl;
                       cout<<"Italiano: "<<italiano<<endl;
                       cout<<"______________________________"<<endl;
-                       PlaySound (("C:\\Users\\Kevin\\Desktop\\Ingenieria en Sistemas V Semestre\\Programacion III\\Programas realizdos\\Fase l\\ ",italiano),NULL,SND_FILENAME | SND_ASYNC);
+                       PlaySound ((URL,italiano),NULL,SND_FILENAME | SND_ASYNC);
                       break;//Hacemos el llamado al audio seleecionado
                       default:
                       cout<<"Opcion Incorrecta"<<endl;//si usuario digite la opcion incorrecta volvera a pedir datos
@@ -299,19 +301,19 @@ void italiano_f(){
                       cout<<"______________________________"<<endl;
                       cout<<"Espanol: "<<espanol<<endl;
                       cout<<"______________________________"<<endl;
-                       PlaySound (("C:\\Users\\Kevin\\Desktop\\Ingenieria en Sistemas V Semestre\\Programacion III\\Programas realizdos\\Fase l\\ ",espanol),NULL,SND_FILENAME | SND_ASYNC);
+                       PlaySound ((URL,espanol),NULL,SND_FILENAME | SND_ASYNC);
                       break;//Hacemos el llamado al audio seleecionado
                   case 2:
                       cout<<"______________________________"<<endl;
                       cout<<"Ingles: "<<ingles<<endl;
                       cout<<"______________________________"<<endl;
-                       PlaySound (("C:\\Users\\Kevin\\Desktop\\Ingenieria en Sistemas V Semestre\\Programacion III\\Programas realizdos\\Fase l\\ ",ingles),NULL,SND_FILENAME | SND_ASYNC);
+                       PlaySound ((URL,ingles),NULL,SND_FILENAME | SND_ASYNC);
                       break;//Hacemos el llamado al audio seleecionado
                   case 3:
                       cout<<"______________________________"<<endl;
                       cout<<"Frances: "<<frances<<endl;
                       cout<<"______________________________"<<endl;
-                       PlaySound (("C:\\Users\\Kevin\\Desktop\\Ingenieria en Sistemas V Semestre\\Programacion III\\Programas realizdos\\Fase l\\ ",frances),NULL,SND_FILENAME | SND_ASYNC);
+                       PlaySound ((URL,frances),NULL,SND_FILENAME | SND_ASYNC);
                       break;//Hacemos el llamado al audio seleecionado
                       default:
                       cout<<"Opcion Incorrecta"<<endl;//si usuario digite la opcion incorrecta volvera a pedir datos
